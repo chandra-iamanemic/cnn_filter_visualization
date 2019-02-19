@@ -68,7 +68,7 @@ cv2.destroyAllWindows()
 Keep re-initating the random matrix and observe the featueres 
 
 #### The feature it could see is something like this
-![](images/ramdom_features.PNG)
+![](images/random_features.PNG)
 
 
 
