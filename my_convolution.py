@@ -9,8 +9,8 @@ import numpy as np
 import cv2
 
 #Loading the angry cat image in grayscale
-angry_cat = cv2.imread("C:/Users/cks/Documents/practice codes/angry cat.jpg",0)
-angry_cat_color = cv2.imread("C:/Users/cks/Documents/practice codes/angry cat.jpg")
+angry_cat = cv2.imread("angry cat.jpg",0)
+angry_cat_color = cv2.imread("angry cat.jpg")
 
 #Resizing the image into 256x256 and displaying the resized image
 angry_cat_resized = cv2.resize(angry_cat, (256,256))
