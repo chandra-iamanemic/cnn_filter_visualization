@@ -224,7 +224,7 @@ def my_maxpool_backprop(doutput_mat,cache):
 
 import cv2
 
-angry_cat = cv2.imread("C:/Users/cks/Documents/practice codes/angry cat.jpg")
+angry_cat = cv2.imread("angry cat.jpg")
 angry_cat = cv2.resize(angry_cat, (256,256))
 
 angry_cat = np.reshape(angry_cat,[1,256,256,3])
