@@ -5,7 +5,7 @@
 First we import the libraries and then import the image of the cat.
 The steps are well commented in the code, I will just explain the function that performs the convolution
 
-We define the two filters explicitlly to detect vertical and horizontal edges
+We define the two filters explicitly to detect vertical and horizontal edges
 
 #explicit vertical edge detecting filters
 vertical_edge_filter = np.array([[1,0,-1],
@@ -36,7 +36,9 @@ The function takes two inputs, the input image and the filter matrix.
 
 We create an empty zeros matrix for the feature matrix. The dimensions of the feature matrix is (img_size-filter_size+1) considering that we dont do any padding and use a stride of 1.
 
-Now we use a nested for loop to move through each element of the feature matrix we have created and to calculate the respective value by choosing the corresponding slice of the image and making a dot product with the filter and to evaluate the sum which will be stored in that feature matrix value (i,j).
+For each value on the feature matrix, feature_matrix[i,j], a slice of the image is taken equal to the dimensions of the filter and convolved with the filter.
+
+Now we use a nested for loop to move through each element of the feature matrix we have created and to calculate the respective value by choosing the corresponding slice of the image and making a dot product with the filter and to evaluate the sum which will be stored in that feature matrix value (i,j). 
 
 Once the loop completes running over the entire feature matrix, it would have evaluated the features obtained by convolving the input image with the input filter.
 
