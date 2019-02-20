@@ -45,27 +45,21 @@ Once the loop completes running over the entire feature matrix, it would have ev
 ### Looking how the feature matrix looks like using the explicit vertical and horizontal filters
 
 Use the function we created with the input image of the cat and the explicit vertical filter we defined
-features_vertical = my_conv(angry_cat_resized,vertical_edge_filter)
-cv2.imshow("vertical features", features_vertical)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
 
+![](images/vertical_implement.PNG)
 #### The feature matrix looks something like this 
 ![](images/vertical_features.PNG)
 
 #### The feature matrix for the horizontal filter looks like this
+
+![](images/horizontal_implement.PNG)
+
 ![](images/horizontal_features.PNG)
 
 
 ### Let us now try creating a feature with random values and see what that filter sees in the image
 
-random_filter = 2*np.random.rand(3,3) - 1
-
-#applying the random filter on the cat image
-features_random = my_conv(angry_cat_resized,random_filter)
-cv2.imshow("random features", features_random)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+![](images/random_implement.PNG)
 
 Keep re-initating the random matrix and observe the featueres 
 
