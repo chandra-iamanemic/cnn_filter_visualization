@@ -115,6 +115,8 @@ When we use this W matrix (consisting of 8 filters) in our function on the image
 ### Let us now get to the intersting part 
 
 Let us now see what our 8 filters actually see/capture in the input image.
+#### Actual RGB Image
+![](images/cat_rgb.PNG)
 
 #### Filter 1
 ![](images/filter_1.PNG)
