@@ -141,5 +141,5 @@ Let us now see what our 8 filters actually see/capture in the input image.
 ![](images/filter_8.PNG)
 
 
-Final note : All these filter visualizations help us understand how a filter captures information or features from an image. 
+**Final note** : All these filter visualizations help us understand how a filter captures information or features from an image. 
 The Convolutional Neural Network in reality starts off with random filters such as these but would refine them to detect specific features during training by means of back propagation. The code my_full_cnn.py also contains a function that would perform back propagation (just for understanding the concept and math behind back propagation)
