@@ -1,5 +1,8 @@
 # Simple Python Script to Visualize the Features Extracted by a CNN Filter
 
+### If you want to dive into 3D convolutions and visualizations
+  *[Python script to visualize 3D convolutions](https://iamanemic.github.io/3d_cnn_filter_visualization/)
+
 ### The first script is the my_convolution.py
 
 First we import the libraries and then import the image of the cat.
@@ -148,3 +151,7 @@ I encourage you to predefine filters or keep randomizing them and re-visualizing
 
 **Final note** : All these filter visualizations help us understand how a filter captures information or features from an image. 
 The Convolutional Neural Network in reality starts off with random filters such as these but would refine them to detect specific features during training by means of back propagation. The code my_full_cnn.py also contains a function that would perform back propagation (just for understanding the concept and math behind back propagation)
+
+
+### If you want to dive into 3D convolutions and visualizations
+  *[Python script to visualize 3D convolutions](https://iamanemic.github.io/3d_cnn_filter_visualization/)
