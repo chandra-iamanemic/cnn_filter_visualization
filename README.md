@@ -152,4 +152,4 @@ The Convolutional Neural Network in reality starts off with random filters such 
 
 
 ### If you want to dive into 3D convolutions and visualizations
-  * [Python script to visualize 3D convolutions](https://iamanemic.github.io/3d_cnn_filter_visualization/)
+  * [Python script to visualize 3D convolutions](https://chandra-iamanemic.github.io/3d_cnn_filter_visualization/)
